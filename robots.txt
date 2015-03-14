@@ -1,7 +1,3 @@
 User-agent: *
-<<<<<<< HEAD
 Sitemap: http://blog.jczimm.com/sitemap.xml
 Disallow: /ghost/
-=======
-Disallow: /ghost/
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc

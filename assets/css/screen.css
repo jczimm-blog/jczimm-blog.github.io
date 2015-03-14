@@ -14,16 +14,9 @@
     7.  Third Party Elements
     8.  Pagination
     9.  Footer
-<<<<<<< HEAD
     10. Media Queries (Tablet)
     11. Media Queries (Mobile)
     12. Animations
-=======
-    10. Media Queries (Medium Desktop)
-    11. Media Queries (Tablet)
-    12. Media Queries (Mobile)
-    13. Animations
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
 
 */
 
@@ -114,17 +107,10 @@ table { border-collapse: collapse; border-spacing: 0; }
 @font-face {
     font-family: "casper-icons";
     src:url("../fonts/casper-icons.eot");
-<<<<<<< HEAD
     src:url("../fonts/casper-icons.eot?") format("embedded-opentype"),
         url("../fonts/casper-icons.woff") format("woff"),
         url("../fonts/casper-icons.ttf") format("truetype"),
         url("../fonts/casper-icons.svg") format("svg");
-=======
-    src:url("../fonts/casper-icons.eot?#iefix") format("embedded-opentype"),
-        url("../fonts/casper-icons.woff") format("woff"),
-        url("../fonts/casper-icons.ttf") format("truetype"),
-        url("../fonts/casper-icons.svg#icons") format("svg");
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     font-weight: normal;
     font-style: normal;
 }
@@ -188,7 +174,6 @@ html {
 }
 
 body {
-<<<<<<< HEAD
     height: 100%;
     max-height: 100%;
     font-family: "Merriweather", serif;
@@ -200,19 +185,6 @@ body {
     -moz-font-feature-settings: 'kern' 1;
     -o-font-feature-settings: 'kern' 1;
     text-rendering: geometricPrecision;
-=======
-    -webkit-font-feature-settings: 'kern' 1;
-    -moz-font-feature-settings: 'kern' 1;
-    -ms-font-feature-settings: 'kern' 1;
-    -o-font-feature-settings: 'kern' 1;
-    font-feature-settings: 'kern' 1;
-    height: 100%;
-    max-height: 100%;
-    font-family: "PT Serif", serif;
-    font-size: 2.2rem;
-    line-height: 1.7em;
-    color: #3A4145;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
 }
 
 ::-moz-selection {
@@ -227,7 +199,6 @@ h1, h2, h3,
 h4, h5, h6 {
     -webkit-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     -moz-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
-<<<<<<< HEAD
     -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     color: #2E2E2E;
     line-height: 1.15em;
@@ -238,34 +209,16 @@ h4, h5, h6 {
 
 h1 {
     font-size: 5rem;
-=======
-    -ms-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
-    -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
-    font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
-    color: #2E2E2E;
-    line-height: 1.15em;
-    margin: 0 0 0.3em 0;
-    font-family: "Open Sans", sans-serif;
-}
-
-h1 {
-    font-size: 5.6rem;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     letter-spacing: -2px;
     text-indent: -3px;
 }
 
 h2 {
-<<<<<<< HEAD
     font-size: 3.6rem;
-=======
-    font-size: 4.4rem;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     letter-spacing: -1px;
 }
 
 h3 {
-<<<<<<< HEAD
     font-size: 3rem;
 }
 
@@ -279,30 +232,11 @@ h5 {
 
 h6 {
     font-size: 2rem;
-=======
-    font-size: 3.9rem;
-}
-
-h4 {
-    font-size: 3.1rem;
-}
-
-h5 {
-    font-size: 2.8rem;
-}
-
-h6 {
-    font-size: 2.2rem;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
 }
 
 a {
     color: #4A4A4A;
-<<<<<<< HEAD
     transition: color 0.3s ease;
-=======
-    transition: color ease 0.3s;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
 }
 
 a:hover {
@@ -312,7 +246,6 @@ a:hover {
 p, ul, ol, dl {
     -webkit-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
     -moz-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
-<<<<<<< HEAD
     -o-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
     margin: 0 0 1.75em 0;
     text-rendering: geometricPrecision;
@@ -320,16 +253,6 @@ p, ul, ol, dl {
 
 ol, ul {
     padding-left: 3rem;
-=======
-    -ms-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
-    -o-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
-    font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
-    margin: 0 0 1.7em 0;
-}
-
-ol, ul {
-    padding-left: 0;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
 }
 
 ol ol, ul ul,
@@ -355,7 +278,6 @@ dl dd {
     margin-bottom: 1em
 }
 
-<<<<<<< HEAD
 li {
     margin: 0.4em 0;
 }
@@ -364,8 +286,6 @@ li li {
     margin: 0;
 }
 
-=======
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
 hr {
     display: block;
     height: 1px;
@@ -378,13 +298,8 @@ hr {
 blockquote {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-<<<<<<< HEAD
     margin: 1.75em 0 1.75em -2.2em;
     padding: 0 0 0 1.75em;
-=======
-    margin: 1.7em 0 1.7em -2.2em;
-    padding: 0 0 0 1.6em;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     border-left: #4A4A4A 0.4em solid;
 }
 
@@ -425,11 +340,7 @@ code, tt {
 pre {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-<<<<<<< HEAD
     margin: 0 0 1.75em 0;
-=======
-    margin: 0 0 1.7em 0;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     border: #E3EDF3 1px solid;
     width: 100%;
     padding: 10px;
@@ -441,14 +352,8 @@ pre {
     border-radius: 3px;
 }
 
-<<<<<<< HEAD
 pre code, pre tt {
     font-size: inherit;
-=======
-pre code, tt {
-    font-size: inherit;
-    white-space: -moz-pre-wrap;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     white-space: pre-wrap;
     background: transparent;
     border: none;
@@ -474,11 +379,7 @@ kbd {
 table {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-<<<<<<< HEAD
     margin: 1.75em 0;
-=======
-    margin: 1.7em 0;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     width: 100%;
     max-width: 100%;
     background-color: transparent;
@@ -520,11 +421,7 @@ table.plain tbody > tr:nth-child(odd) > th {
 
 iframe, .fluid-width-video-wrapper {
     display: block;
-<<<<<<< HEAD
     margin: 1.75em 0;
-=======
-    margin: 1.6em 0;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
 }
 
 /* When a video is inside the fitvids wrapper, drop the
@@ -545,11 +442,7 @@ margin on the iframe, cause it breaks stuff. */
     display: table;
 }
 .clearfix:after { clear: both; }
-<<<<<<< HEAD
 .clearfix { zoom: 1; }
-=======
-.clearfix { *zoom: 1; }
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
 
 /* Hides shit */
 .hidden {
@@ -562,11 +455,7 @@ margin on the iframe, cause it breaks stuff. */
 .inner {
     position: relative;
     width: 80%;
-<<<<<<< HEAD
     max-width: 710px;
-=======
-    max-width: 780px;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     margin: 0 auto;
 }
 
@@ -576,7 +465,6 @@ margin on the iframe, cause it breaks stuff. */
     vertical-align: middle;
 }
 
-<<<<<<< HEAD
 /* Wraps the main content & footer */
 .site-wrapper {
     position: relative;
@@ -596,8 +484,6 @@ body.nav-opened .site-wrapper {
             transition: transform 0.3s ease;
 }
 
-=======
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
 
 /* ==========================================================================
    4. General - The main styles for the the theme
@@ -608,11 +494,7 @@ body.nav-opened .site-wrapper {
     position: relative;
     display: table;
     width: 100%;
-<<<<<<< HEAD
     height: 100vh;
-=======
-    height: 100%;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     margin-bottom: 5rem;
     text-align: center;
     background: #222 no-repeat center center;
@@ -635,7 +517,6 @@ body.nav-opened .site-wrapper {
     font-family: 'Open Sans', sans-serif;
 }
 
-<<<<<<< HEAD
 /* Navigation */
 body.nav-opened .nav-cover {
     position: fixed;
@@ -822,8 +703,6 @@ body.nav-opened .nav {
 }
 
 
-=======
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
 /* Create a bouncing scroll-down arrow on homepage with cover image */
 .scroll-down {
     display: block;
@@ -838,11 +717,8 @@ body.nav-opened .nav {
     text-align: center;
     text-decoration: none;
     color: rgba(255,255,255,0.7);
-<<<<<<< HEAD
     -webkit-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
-=======
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     transform: rotate(-90deg);
     -webkit-animation: bounce 4s 2s infinite;
     animation: bounce 4s 2s infinite;
@@ -867,12 +743,6 @@ body.nav-opened .nav {
     bottom: 0;
     left: 50%;
     margin-left: -75px;
-<<<<<<< HEAD
-=======
-    background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.15) 0%, rgba(0,0,0,0) 70%, rgba(0,0,0,0) 100%);
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0.15)), color-stop(70%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0)));
-    background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.15) 0%,rgba(0,0,0,0) 70%,rgba(0,0,0,0) 100%);
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     background: radial-gradient(ellipse at center,  rgba(0,0,0,0.15) 0%,rgba(0,0,0,0) 70%,rgba(0,0,0,0) 100%);
 }
 
@@ -902,33 +772,21 @@ body.nav-opened .nav {
     width: auto;
 }
 
-<<<<<<< HEAD
 .menu-button {
-=======
-.back-button {
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: inline-block;
-<<<<<<< HEAD
     float: right;
     height: 38px;
     padding: 0 15px;
     border: #bfc8cd 1px solid;
     opacity: 1;
-=======
-    float: left;
-    height: 38px;
-    padding: 0 15px 0 10px;
-    border: transparent 1px solid;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     color: #9EABB3;
     text-align: center;
     font-size: 12px;
     text-transform: uppercase;
     line-height: 35px;
-<<<<<<< HEAD
     white-space: nowrap;
     border-radius: 3px;
     background: rgba(0,0,0,0.1);
@@ -955,40 +813,6 @@ body.nav-opened .menu-button {
 body.nav-opened .menu-button .word {
     opacity: 0;
     transition: all 0.3s ease;
-=======
-    border-radius: 3px;
-    transition: all ease 0.3s;
-}
-.back-button:before {
-    position: relative;
-    bottom: -2px;
-    font-size: 13px;
-    line-height: 0;
-    margin-right: 8px;
-}
-
-.subscribe-button {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    display: inline-block;
-    float: right;
-    height: 38px;
-    padding: 0 20px;
-    border: transparent 1px solid;
-    color: #9EABB3;
-    text-align: center;
-    font-size: 12px;
-    text-transform: uppercase;
-    line-height: 35px;
-    white-space: nowrap;
-    border-radius: 3px;
-    transition: all ease 0.3s;
-}
-.subscribe-button:before {
-    font-size: 9px;
-    margin-right: 6px;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
 }
 
 /* Special styles when overlaid on an image*/
@@ -999,19 +823,10 @@ body.nav-opened .menu-button .word {
     right: 0;
     height: 70px;
     border: none;
-<<<<<<< HEAD
     background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0) 100%);
 }
 .no-cover .main-nav.overlay,
 .no-cover .menu-button {
-=======
-    background: -moz-linear-gradient(top, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0) 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.2)), color-stop(100%,rgba(0,0,0,0)));
-    background: -webkit-linear-gradient(top, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0) 100%);
-    background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0) 100%);
-}
-.no-cover .main-nav.overlay {
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     background: none;
 }
 
@@ -1019,19 +834,12 @@ body.nav-opened .menu-button .word {
     color: #fff;
 }
 
-<<<<<<< HEAD
 .main-nav.overlay .menu-button {
     border-color: rgba(255,255,255,0.6);
-=======
-.main-nav.overlay .back-button,
-.main-nav.overlay .subscribe-button {
-    border-color: #fff;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
 }
 
 .main-nav.overlay a:hover {
     color: #222;
-<<<<<<< HEAD
     border-color: #fff;
     background: #fff;
 }
@@ -1040,28 +848,12 @@ body.nav-opened .menu-button .word {
 .menu-button:hover {
     border-color: #555;
     color: #555;
-=======
-    border-color: rgba(255,255,255,0.8);
-    background: rgba(255,255,255,0.8);
-    transition: all 0.1s ease;
-}
-
-/* Add a border to the buttons on hover */
-.back-button:hover,
-.subscribe-button:hover {
-    border-color: #bfc8cd;
-    color: #9EABB3;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
 }
 
 /* The details of your blog. Defined in ghost/settings/ */
 .page-title {
     margin: 10px 0 10px 0;
-<<<<<<< HEAD
     font-size: 5rem;
-=======
-    font-size: 5.6rem;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     letter-spacing: -1px;
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
@@ -1070,29 +862,17 @@ body.nav-opened .menu-button .word {
 
 .page-description {
     margin: 0;
-<<<<<<< HEAD
     font-size: 2rem;
     line-height: 1.5em;
     font-weight: 400;
     font-family: "Merriweather", serif;
     letter-spacing: 0.01rem;
-=======
-    font-size: 2.2rem;
-    line-height: 1.5em;
-    font-weight: 400;
-    font-family: "PT Serif", serif;
-    letter-spacing: 0;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     color: rgba(255,255,255,0.8);
 }
 
 .no-cover.main-header {
     min-height: 160px;
-<<<<<<< HEAD
     max-height: 40vh;
-=======
-    max-height: 40%;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     background: #f5f8fa;
 }
 
@@ -1104,12 +884,7 @@ body.nav-opened .menu-button .word {
     color: rgba(0,0,0,0.5);
 }
 
-<<<<<<< HEAD
 .no-cover .main-nav.overlay .menu-button {
-=======
-.no-cover .main-nav.overlay .back-button,
-.no-cover .main-nav.overlay .subscribe-button {
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     color: rgba(0,0,0,0.4);
     border-color: rgba(0,0,0,0.3);
 }
@@ -1132,7 +907,6 @@ body.nav-opened .menu-button .word {
 .post {
     position: relative;
     width: 80%;
-<<<<<<< HEAD
     max-width: 710px;
     margin: 4rem auto;
     padding-bottom: 4rem;
@@ -1141,13 +915,6 @@ body.nav-opened .menu-button .word {
     -moz-hyphens: auto;
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
-=======
-    max-width: 780px;
-    margin: 4rem auto;
-    padding-bottom: 4rem;
-    border-bottom: #EBF2F6 1px solid;
-    word-break: break-word;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     hyphens: auto;
 }
 
@@ -1164,21 +931,12 @@ body.nav-opened .menu-button .word {
     left: 50%;
     margin-left: -5px;
     background: #FFF;
-<<<<<<< HEAD
-=======
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     border-radius: 100%;
     box-shadow: #FFF 0 0 0 5px;
 }
 
 body:not(.post-template) .post-title {
-<<<<<<< HEAD
     font-size: 3.6rem;
-=======
-    font-size: 4rem;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
 }
 
 .post-title a {
@@ -1187,11 +945,8 @@ body:not(.post-template) .post-title {
 
 .post-excerpt p {
     margin: 0;
-<<<<<<< HEAD
     font-size: 0.9em;
     line-height: 1.7em;
-=======
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
 }
 
 .read-more {
@@ -1200,11 +955,7 @@ body:not(.post-template) .post-title {
 
 .post-meta {
     display: block;
-<<<<<<< HEAD
     margin: 1.75rem 0 0 0;
-=======
-    margin: 2rem 0 0.6rem 0;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     font-family: "Open Sans", sans-serif;
     font-size: 1.5rem;
     line-height: 2.2rem;
@@ -1304,14 +1055,9 @@ body:not(.post-template) .post-title {
     border: none;
 }
 
-<<<<<<< HEAD
 /* Stop elements, such as img wider than the post content, from
    creating horizontal scroll - slight hack due to imperfections
    with browser width % calculations and rounding */
-=======
-/* Stop .full-img from creating horizontal scroll - slight hack due to
-   imperfections with browser width % calculations and rounding */
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
 .post-template .content {
     overflow: hidden;
 }
@@ -1328,7 +1074,6 @@ body:not(.post-template) .post-title {
     display: none;
 }
 
-<<<<<<< HEAD
 /* Keep images centered, and allow images wider than the main
    text column to break out. */
 .post-content img {
@@ -1345,23 +1090,6 @@ body:not(.post-template) .post-title {
     -webkit-transform: translateX(-50%); /* for Safari and iOS */
     -ms-transform: translateX(-50%); /* for IE9 */
     transform: translateX(-50%);
-=======
-/* Keep images centred and within the bounds of the post-width */
-.post-content img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
-    padding: 0.6em 0;
-}
-
-/* Break out larger images to be wider than the main text column
-   the class is applied with jQuery */
-.post-content .full-img {
-    width: 126%;
-    max-width: none;
-    margin: 0 -13%;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
 }
 
 /* The author credit area after the post */
@@ -1380,11 +1108,7 @@ body:not(.post-template) .post-title {
 .post-footer p {
     margin: 1rem 0;
     font-size: 1.4rem;
-<<<<<<< HEAD
     line-height: 1.75em;
-=======
-    line-height: 1.6em;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
 }
 
 /* list of author links - location / url */
@@ -1442,7 +1166,6 @@ body:not(.post-template) .post-title {
     color: #50585D;
 }
 
-<<<<<<< HEAD
 
 /* ==========================================================================
    6. Author profile
@@ -1462,109 +1185,16 @@ body:not(.post-template) .post-title {
 
 .tag-head.main-header {
     height: 40vh;
-=======
-/* The subscribe icon on the footer */
-.subscribe {
-    width: 28px;
-    height: 28px;
-    position: absolute;
-    top: -14px;
-    left: 50%;
-    margin-left: -15px;
-    border: #EBF2F6 1px solid;
-    text-align: center;
-    line-height: 2.4rem;
-    border-radius: 50px;
-    background: #FFF;
-    transition: box-shadow 0.5s;
-}
-
-/* The RSS icon, inserted via icon font */
-.subscribe:before {
-    color: #D2DEE3;
-    font-size: 10px;
-    position: absolute;
-    top: 2px;
-    left: 9px;
-    font-weight: 700;
-    transition: color 0.5s ease;
-}
-
-/* Add a box shadow to on hover */
-.subscribe:hover {
-    box-shadow: rgba(0,0,0,0.05) 0 0 0 3px;
-    transition: box-shadow 0.25s;
-}
-
-.subscribe:hover:before {
-    color: #50585D;
-}
-
-/* CSS tooltip saying "Subscribe!" - initially hidden */
-.tooltip {
-    opacity: 0;
-    display: block;
-    width: 53px;
-    padding: 4px 8px 5px 8px;
-    position:absolute;
-    top: -23px;
-    left: -21px;
-    color: rgba(255,255,255,0.9);
-    font-size: 1.1rem;
-    line-height: 1em;
-    text-align: center;
-    background: #50585D;
-    border-radius: 20px;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
-    transition: opacity 0.3s ease, top 0.3s ease;
-}
-
-/* The little chiclet arrow under the tooltip, pointing down */
-.tooltip:after {
-    content: " ";
-    border-width: 5px 5px 0 5px;
-    border-style: solid;
-    border-color: #50585D transparent;
-    display: block;
-    position: absolute;
-    bottom: -4px;
-    left: 50%;
-    margin-left: -5px;
-    z-index: 220;
-    width: 0;
-}
-
-/* On hover, show the tooltip! */
-.subscribe:hover .tooltip {
-    opacity: 1;
-    top: -33px;
-}
-
-/* ==========================================================================
-   6. Author profile
-   ========================================================================== */
-
-.tag-head.main-header {
-    height: 40%;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     min-height: 180px;
 }
 
 .author-head.main-header {
-<<<<<<< HEAD
     height: 40vh;
-=======
-    height: 40%;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     min-height: 180px;
 }
 
 .no-cover.author-head.main-header {
-<<<<<<< HEAD
     height: 10vh;
-=======
-    height: 10%;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     min-height: 100px;
     background: transparent;
 }
@@ -1587,11 +1217,6 @@ body:not(.post-template) .post-title {
     left: 50%;
     margin-left: -5px;
     background: #FFF;
-<<<<<<< HEAD
-=======
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     border-radius: 100%;
     box-shadow: #FFF 0 0 0 5px;
 }
@@ -1655,12 +1280,8 @@ body:not(.post-template) .post-title {
 /* Location, website, and link */
 .author-profile .author-meta {
     margin: 2rem 0;
-<<<<<<< HEAD
     font-family: "Merriweather", serif;
     letter-spacing: 0.01rem;
-=======
-    font-family: "PT Serif", serif;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     font-size: 1.7rem;
 }
 .author-meta span {
@@ -1687,7 +1308,6 @@ body:not(.post-template) .post-title {
     margin: 0;
     font-size: 1.4rem;
 }
-<<<<<<< HEAD
 .gist td {
     line-height: 1.4;
 }
@@ -1699,13 +1319,6 @@ body:not(.post-template) .post-title {
 .content .embedPastebin {
     margin-bottom: 1.75em;
 }
-=======
-.gist .line-number {
-    min-width: 25px;
-    font-size: 1.1rem;
-}
-
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
 
 /* ==========================================================================
    8. Pagination - Tools to let you flick between pages
@@ -1715,11 +1328,7 @@ body:not(.post-template) .post-title {
 .pagination {
     position: relative;
     width: 80%;
-<<<<<<< HEAD
     max-width: 710px;
-=======
-    max-width: 780px;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     margin: 4rem auto;
     font-family: "Open Sans", sans-serif;
     font-size: 1.3rem;
@@ -1741,11 +1350,7 @@ body:not(.post-template) .post-title {
     border: #bfc8cd 1px solid;
     text-decoration: none;
     border-radius: 4px;
-<<<<<<< HEAD
     transition: border 0.3s ease;
-=======
-    transition: border ease 0.3s;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
 }
 
 .older-posts {
@@ -1783,11 +1388,6 @@ body:not(.post-template) .post-title {
     left: 50%;
     margin-left: -5px;
     background: #FFF;
-<<<<<<< HEAD
-=======
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     border-radius: 100%;
     box-shadow: #FFF 0 0 0 5px;
 }
@@ -1797,11 +1397,7 @@ body:not(.post-template) .post-title {
 
 /* On page2+ make all the headers smaller */
 .archive-template .main-header {
-<<<<<<< HEAD
     max-height: 30vh;
-=======
-    max-height: 30%;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
 }
 
 /* On page2+ show extra pagination controls at the top of post list */
@@ -1821,11 +1417,7 @@ body:not(.post-template) .post-title {
     border-top: #EBF2F6 1px solid;
     font-family: "Open Sans", sans-serif;
     font-size: 1rem;
-<<<<<<< HEAD
     line-height: 1.75em;
-=======
-    line-height: 1.7em;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     color: #BBC7CC;
 }
 
@@ -1854,88 +1446,11 @@ body:not(.post-template) .post-title {
 
 
 /* ==========================================================================
-<<<<<<< HEAD
    10. Media Queries - Smaller than 900px
-=======
-   10. Media Queries - Smaller than 1600px
-   ========================================================================== */
-
-@media only screen and (max-width: 1600px) {
-
-    .page-title {
-        font-size: 5rem;
-    }
-
-    .page-description {
-        font-size: 2rem;
-        line-height: 1.5em;
-    }
-
-    .post {
-        font-size: 0.9em;
-        line-height: 1.65em;
-    }
-
-    p, ul, ol, dl {
-        margin: 0 0 1.65em 0;
-    }
-
-    .post,
-    .inner,
-    .pagination {
-        max-width: 710px;
-    }
-
-    h1, h2, h3,
-    h4, h5, h6 {
-        margin: 0 0 0.4em 0;
-    }
-
-    h1 {
-        font-size: 5rem;
-    }
-
-    h2 {
-        font-size: 4rem;
-    }
-
-    h3 {
-        font-size: 3.5rem;
-    }
-
-    h4 {
-        font-size: 2.8rem;
-    }
-
-    h5 {
-        font-size: 2.5rem;
-    }
-
-    h6 {
-        font-size: 2rem;
-    }
-
-    body:not(.post-template) .post-title {
-        font-size: 3.6rem;
-    }
-
-}
-
-
-/* ==========================================================================
-   11. Media Queries - Smaller than 900px
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
    ========================================================================== */
 
 @media only screen and (max-width: 900px) {
 
-<<<<<<< HEAD
-=======
-    .main-nav {
-        padding: 15px;
-    }
-
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     blockquote {
         margin-left: 0;
     }
@@ -1946,20 +1461,12 @@ body:not(.post-template) .post-title {
         box-sizing: border-box;
         height: auto;
         min-height: 240px;
-<<<<<<< HEAD
         height: 60vh;
         padding: 15% 0;
     }
 
     .scroll-down,
     .home-template .main-header:after { display: none; }
-=======
-        height: 60%;
-        padding: 15% 0;
-    }
-
-    .scroll-down { display: none; }
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
 
     .archive-template .main-header {
         min-height: 180px;
@@ -1981,11 +1488,7 @@ body:not(.post-template) .post-title {
     }
 
     .post {
-<<<<<<< HEAD
         font-size: 0.95em
-=======
-        font-size: 0.8em
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     }
 
     body:not(.post-template) .post-title {
@@ -2041,7 +1544,6 @@ body:not(.post-template) .post-title {
         font-size: 1.6rem;
     }
 
-<<<<<<< HEAD
     .post-head.main-header {
         height:45vh;
     }
@@ -2054,11 +1556,6 @@ body:not(.post-template) .post-title {
     .no-cover.post-head.main-header {
         height: 55px;
         padding: 0;
-=======
-    .tag-head.main-header,
-    .author-head.main-header {
-        height: 30%;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     }
 
     .no-cover.author-head.main-header {
@@ -2069,17 +1566,12 @@ body:not(.post-template) .post-title {
 
 
 /* ==========================================================================
-<<<<<<< HEAD
    11. Media Queries - Smaller than 500px
-=======
-   12. Media Queries - Smaller than 500px
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
    ========================================================================== */
 
 @media only screen and (max-width: 500px) {
 
     .main-header {
-<<<<<<< HEAD
         margin-bottom: 15px;
         height: 40vh;
     }
@@ -2090,24 +1582,11 @@ body:not(.post-template) .post-title {
 
     .archive-template .main-header {
         max-height: 20vh;
-=======
-        margin-bottom: 0;
-        height: 40%;
-    }
-
-    .no-cover.main-header {
-        height: 30%;
-    }
-
-    .archive-template .main-header {
-        max-height: 20%;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
         min-height: 160px;
         padding: 10% 0;
     }
 
     .main-nav {
-<<<<<<< HEAD
         padding: 5px;
         margin-bottom: 2rem;
     }
@@ -2135,41 +1614,6 @@ body:not(.post-template) .post-title {
     body.nav-opened .menu-button {
         background: none !important;
         border: transparent !important;
-=======
-        padding: 0;
-        margin-bottom: 2rem;
-        border-bottom: #e0e4e7 1px solid;
-    }
-
-    .blog-logo {
-        padding: 10px 10px;
-    }
-
-    .blog-logo img {
-        height: 26px;
-    }
-
-    .back-button,
-    .subscribe-button {
-        height: 44px;
-        line-height: 41px;
-        border-radius: 0;
-        color: #2e2e2e;
-    }
-    .back-button:hover,
-    .subscribe-button:hover {
-        border-color: #ebeef0;
-        color: #2e2e2e;
-        background: #ebeef0;
-    }
-
-    .back-button {
-        padding: 0 15px 0 10px;
-    }
-
-    .subscribe-button {
-        padding: 0 12px;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     }
 
     .main-nav.overlay a:hover {
@@ -2181,7 +1625,6 @@ body:not(.post-template) .post-title {
     .no-cover .main-nav.overlay {
         background: none;
     }
-<<<<<<< HEAD
     .no-cover .main-nav.overlay .menu-button {
         border: none;
     }
@@ -2202,20 +1645,6 @@ body:not(.post-template) .post-title {
 
     .nav ul {
         padding: 60px 9% 5%;
-=======
-    .no-cover .main-nav.overlay .back-button,
-    .no-cover .main-nav.overlay .subscribe-button {
-        border: none;
-    }
-
-    .main-nav.overlay .back-button,
-    .main-nav.overlay .subscribe-button {
-        border-color: transparent;
-    }
-
-    .blog-logo img {
-        max-height: 80px;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     }
 
     .inner,
@@ -2231,11 +1660,7 @@ body:not(.post-template) .post-title {
         margin-left: 16px;
         margin-right: 16px;
         padding-bottom: 2rem;
-<<<<<<< HEAD
         line-height: 1.65em;
-=======
-        line-height: 1.55em;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     }
 
     .post-date {
@@ -2251,33 +1676,22 @@ body:not(.post-template) .post-title {
     }
 
     hr {
-<<<<<<< HEAD
         margin: 1.75em 0;
-=======
-        margin: 1.6em 0;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     }
 
     p, ul, ol, dl {
         font-size: 0.95em;
-<<<<<<< HEAD
         margin: 0 0 2.5rem 0;
-=======
-        margin: 0 0 2rem 0;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     }
 
     .page-title {
         font-size: 3rem;
     }
 
-<<<<<<< HEAD
     .post-excerpt p {
         font-size: 0.85em;
     }
 
-=======
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     .page-description {
         font-size: 1.6rem;
     }
@@ -2288,25 +1702,16 @@ body:not(.post-template) .post-title {
     }
 
     h1 {
-<<<<<<< HEAD
         font-size: 2.8rem;
-=======
-        font-size: 3rem;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
         letter-spacing: -1px;
     }
 
     h2 {
-<<<<<<< HEAD
         font-size: 2.4rem;
-=======
-        font-size: 2.6rem;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
         letter-spacing: 0;
     }
 
     h3 {
-<<<<<<< HEAD
         font-size: 2.1rem;
     }
 
@@ -2324,25 +1729,6 @@ body:not(.post-template) .post-title {
 
     body:not(.post-template) .post-title {
         font-size: 2.5rem;
-=======
-        font-size: 2.4rem;
-    }
-
-    h4 {
-        font-size: 2.1rem;
-    }
-
-    h5 {
-        font-size: 1.9rem;
-    }
-
-    h6 {
-        font-size: 1.7rem;
-    }
-
-    body:not(.post-template) .post-title {
-        font-size: 2.6rem;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     }
 
     .post-template .post {
@@ -2356,26 +1742,14 @@ body:not(.post-template) .post-title {
 
     .post-content img {
         padding: 0;
-<<<<<<< HEAD
         width: calc(100% + 32px); /* expand with to image + margins */
-=======
-    }
-
-    .post-content .full-img {
-        width: auto;
-        width: calc(100% + 32px); /* expand with to image + margins */
-        margin: 0 -16px; /* get rid of margins */
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
         min-width: 0;
         max-width: 112%; /* fallback when calc doesn't work */
     }
 
     .post-meta {
         font-size: 1.3rem;
-<<<<<<< HEAD
         margin-top: 1rem;
-=======
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     }
 
     .post-footer {
@@ -2401,11 +1775,7 @@ body:not(.post-template) .post-title {
     .author-meta li {
         float: none;
         margin: 0;
-<<<<<<< HEAD
         line-height: 1.75em;
-=======
-        line-height: 1.6em;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     }
 
     .author-meta li:before {
@@ -2430,7 +1800,6 @@ body:not(.post-template) .post-title {
         padding-bottom: 2rem;
     }
 
-<<<<<<< HEAD
     .post-head.main-header {
         height: 30vh;
     }
@@ -2438,11 +1807,6 @@ body:not(.post-template) .post-title {
     .tag-head.main-header,
     .author-head.main-header {
         height: 20vh;
-=======
-    .tag-head.main-header,
-    .author-head.main-header {
-        height: 20%;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     }
 
     .author-profile .author-image {
@@ -2450,11 +1814,7 @@ body:not(.post-template) .post-title {
     }
 
     .author-profile .author-meta span {
-<<<<<<< HEAD
         font-size: 1.4rem;
-=======
-        font-size: 1.5rem;
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
     }
 
     .archive-template .main-header .page-description {
@@ -2465,11 +1825,7 @@ body:not(.post-template) .post-title {
 
 
 /* ==========================================================================
-<<<<<<< HEAD
    12. Animations
-=======
-   13. Animations
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
    ========================================================================== */
 
 /* Used to fade in title/desc on the home page */
@@ -2532,8 +1888,4 @@ body:not(.post-template) .post-title {
 /* ==========================================================================
    End of file. Animations should be the last thing here. Do not add stuff
    below this point, or it will probably fuck everything up.
-<<<<<<< HEAD
    ========================================================================== */
-=======
-   ========================================================================== */
->>>>>>> e53ed6e9f63cb45c9ea70b96548a899f552764cc
